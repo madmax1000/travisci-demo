@@ -19,7 +19,7 @@ def multiply():
 @app.route('/touppercase')
 def touppercase():
     string = request.args.get('s')
-    return string.toupper()
+    return string.upper()
 
 
 @app.route('/authorized')
